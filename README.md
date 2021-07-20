@@ -1,24 +1,39 @@
-# README
+# CriteriGuide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+The Wax Attic Single Page Application (SPA) serves as fully interactive library for vinyl album lovers who wish to monitor their collection records all in one place. The client is able to create new album instances, edit current instances, or even delete instances entirely. This full CRUD funcitonality is made possible with the use of seamless, user-friendly controlled forms. Finally, if a user wishes to find an album fast, a search bar at the top of the page will help them sort albums by either album title or artist name. This backend repo serves as an API database to populate the frontend.
 
-* Ruby version
+**This repo should be used in conjunction with the frontend repo link listed below to fully experience the app's functionality.**
 
-* System dependencies
+## Install Instructions
 
-* Configuration
+- Fork the repo and copy the SSH link.
 
-* Database creation
+- `cd` into your desired folder and paste the SSH link into your terminal and hit `enter`.
 
-* Database initialization
+- Once the repo is opened in your preferred text editor, type `bundle install` in your terminal, then hit `enter` to run the installation.
 
-* How to run the test suite
+- Once the Ruby gems are installed, type `rails s` in your terminal to set up a local server.
 
-* Services (job queues, cache servers, search engines, etc.)
+- Copy the address provided by `rails s` and paste it into your browser's address bar. (This is often listen in your terminal as "Listening on:")
 
-* Deployment instructions
+- Once navigated to the above address, you will be able to view a JSON rendering of the database's information. In order to improve readability, feel free to download and use a JSON viewer Chrome extension like this one here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US
 
-* ...
+## Frontend Repo Link
+
+https://github.com/rowemac/the-wax-attic-redux
+
+## Contributer's Gude
+
+- If you wish to contribute to this repo please submit a pull request or a new issue. 
+
+## License
+
+- This app is licensed under The MIT License located here: https://github.com/rowemac/CriteriGuide-back-end/blob/master/LICENSE.md
+
+## Sources
+
+- https://en.wikipedia.org/wiki/Main_Page
+- https://www.amazon.com/
+- https://www.w3schools.com/
